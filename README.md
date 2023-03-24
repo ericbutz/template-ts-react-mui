@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# App notes
+
+This app is based on [this tutorial](https://levelup.gitconnected.com/lets-setup-a-react-typescript-project-with-material-ui-react-router-3d7ea8cb5596)
+
+## Setup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To install the react start app:
+
+```
+npx create-react-app starter-app --template typescript
+```
 
 ## Available Scripts
 
