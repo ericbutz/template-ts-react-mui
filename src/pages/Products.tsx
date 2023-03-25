@@ -5,18 +5,18 @@ import {Box, Paper, Typography} from "@mui/material";
 
 const Products: FC<any> = (): ReactElement => {
     return (
-        <Box
-        height="100vh"
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        flexDirection="column"
-      >
+      <Box sx={{
+        flexGrow: 1,
+        color: 'inherit',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
         <Paper
           elevation={3}
-          sx={{ padding: "1rem", backgroundColor: "secondary.light" }}
+          sx={{ padding: "1rem", backgroundColor: "black",}}
         >
-          <Typography color="primary.dark" variant="h1">
+          <Typography variant="h1">
             Products
           </Typography>
         </Paper>

@@ -12,21 +12,35 @@ import Footer from "./components/Footer";
 
 function App() {
 
-  // define theme
-  const theme = createTheme({
+  /**
+   * If you don't define a theme, the default palette is used: 
+   * https://mui.com/material-ui/customization/palette/
+   * 
+   * Defaults for dark and light modes: https://mui.com/material-ui/customization/default-theme/?expand-path=$.palette
+   * 
+   * You can override everything to dark mode with:
+      palette: {
+        mode: 'dark',
+      },
+   *   
+   * In your theme you can also override the primary and secondary light, main, and dark palette.
     palette: {
       primary: {
-        light: "#63b8ff",
         main: "#0989e3",
-        dark: "#005db0",
+        light: "#63b8ff",
+        dark: "#000000",
         contrastText: "#000",
       },
       secondary: {
         main: "#4db6ac",
         light: "#82e9de",
-        dark: "#00867d",
+        dark: "#000000",
         contrastText: "#000",
       },
+      */
+  const theme = createTheme({
+    palette: {
+      mode: 'dark'
     },
   });
 
@@ -50,7 +64,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Box height="100vh" display="flex" flexDirection="column">
+      <Box height="100vh" display="flex" flexDirection="column" >
         <Router>
           <Navbar />
           <Routes>

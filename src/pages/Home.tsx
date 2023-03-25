@@ -7,7 +7,7 @@ const Home: FC<any> = (): ReactElement => {
     return (
         <Box sx={{
             flexGrow: 1,
-            backgroundColor: 'whitesmoke',
+            backgroundColor: 'primary',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center'
