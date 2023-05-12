@@ -1,5 +1,3 @@
-// src/pages/Home.tsx
-
 import React, {ReactElement, FC} from "react";
 import {Box, Typography} from "@mui/material";
 

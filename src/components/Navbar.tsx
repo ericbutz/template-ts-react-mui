@@ -127,7 +127,7 @@ function ResponsiveAppBar() {
             </Menu>
           </Box>
 
-          {/* The icon next to LOGO */}
+          {/* The icon next to LOGO, see: https://mui.com/material-ui/material-icons/ and search on adb */}
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           
           {/* The collapsed LOGO */}

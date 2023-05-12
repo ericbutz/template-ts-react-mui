@@ -1,7 +1,7 @@
 // src/routes.ts
 
 // pages
-import Home from "./pages/Home";
+import Home from "./pages/Docs";
 import About from "./pages/About";
 import Products from "./pages/Products";
 
@@ -29,7 +29,7 @@ interface Route {
 export const routes: Array<Route> = [
     {
         key: 'home-route',
-        title: 'Home',
+        title: 'Marketplace',
         path: '/',
         enabled: true,
         component: Home
