@@ -76,7 +76,7 @@ function ResponsiveAppBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            EBTemplate
           </Typography>
           
           {/* The collapsed menu and menu items */}

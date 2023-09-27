@@ -18,7 +18,7 @@ export const Footer: FC = (): ReactElement => {
         <Grid container direction="column" alignItems="center">
           <Grid item xs={12}>
             <Typography variant="h5">
-              App Name
+              EB Template
             </Typography>
           </Grid>
           <Grid item xs={12}>
